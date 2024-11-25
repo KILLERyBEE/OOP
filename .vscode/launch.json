@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/DELL/Desktop/OOP/Inheritance",
-      "program": "c:/Users/DELL/Desktop/OOP/Inheritance/build/Debug/outDebug",
+      "cwd": "c:/Users/DELL/Desktop/OOP/prexam",
+      "program": "c:/Users/DELL/Desktop/OOP/prexam/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
