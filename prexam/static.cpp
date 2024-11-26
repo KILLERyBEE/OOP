@@ -25,5 +25,7 @@ int main()
 {
     Abc ob;
     cout<<"VAlue of a : "<<Abc::geta()<<endl;
+    Abc::reset();
+    cout<<"Value after reset : "<<Abc::geta()<<endl;
     return 0;
 }
