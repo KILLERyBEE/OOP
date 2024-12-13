@@ -19,13 +19,13 @@ class Abc
     }
 };
 
-int Abc::a=10;
+int Abc::a=0;
 
 int main()
 {
-    Abc ob;
+    Abc ob,ob2;
     cout<<"VAlue of a : "<<Abc::geta()<<endl;
-    Abc::reset();
+    ob.reset();
     cout<<"Value after reset : "<<Abc::geta()<<endl;
     return 0;
 }
