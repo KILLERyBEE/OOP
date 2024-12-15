@@ -30,7 +30,7 @@ class derived:public base
     {
         b=c;
     }
-    virtual void display()
+    void display()
     {
         cout<<"Derived"<<endl;
     }
