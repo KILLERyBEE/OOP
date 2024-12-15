@@ -17,8 +17,14 @@ class base
     }
 
     friend base operator -(base &ob,base &ob1);
+
+    friend base operator *(base &ob1,base &ob2);
 };
 
+base operator *(base &ob1,base &ob2)
+{
+    return base(ob1.a*ob2.a,ob1.b*ob2.b);
+}
 
 base operator -(base &ob,base &ob1)
 {
